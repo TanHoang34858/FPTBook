@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\DoAnWeb - Final\\IBook\\IBook.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\1670\\GitHub\\FPTBook\\IBook.csproj": {}
   },
   "projects": {
-    "F:\\DoAnWeb - Final\\IBook\\IBook.csproj": {
+    "C:\\Users\\Admin\\Desktop\\1670\\GitHub\\FPTBook\\IBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\DoAnWeb - Final\\IBook\\IBook.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\1670\\GitHub\\FPTBook\\IBook.csproj",
         "projectName": "IBook",
-        "projectPath": "F:\\DoAnWeb - Final\\IBook\\IBook.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\1670\\GitHub\\FPTBook\\IBook.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "F:\\DoAnWeb - Final\\IBook\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\1670\\GitHub\\FPTBook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
@@ -77,11 +80,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
