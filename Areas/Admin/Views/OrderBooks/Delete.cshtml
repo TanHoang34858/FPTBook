@@ -1,0 +1,61 @@
+﻿@model IBook.Models.OrderBook
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-danger">Xóa đơn hàng</h1>
+<h3>Chắc chắn muốn xóa đơn hàng này?</h3>
+<div class="p-5 border rounded">
+    <h4>Đơn hàng</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <div class="form-group row">
+            <dt class="col-2">
+                @Html.DisplayNameFor(model => model.CustomerName)
+            </dt>
+            <dd class="col-10">
+                @Html.DisplayFor(model => model.CustomerName)
+            </dd>
+        </div>
+        <div class="form-group row">
+            <dt class="col-2">
+                @Html.DisplayNameFor(model => model.AppointmentDate)
+            </dt>
+            <dd class="col-10">
+                @Html.DisplayFor(model => model.AppointmentDate)
+            </dd>
+        </div>
+        <div class="form-group row">
+            <dt class="col-2">
+                @Html.DisplayNameFor(model => model.CustomerAddress)
+            </dt>
+            <dd class="col-10">
+                @Html.DisplayFor(model => model.CustomerAddress)
+            </dd>
+        </div>
+        <div class="form-group row">
+            <dt class="col-2">
+                @Html.DisplayNameFor(model => model.CustomerPhone)
+            </dt>
+            <dd class="col-10">
+                @Html.DisplayFor(model => model.CustomerPhone)
+            </dd>
+        </div>
+        <div class="form-group row">
+            <dt class="col-2">
+                @Html.DisplayNameFor(model => model.isConfirmed)
+            </dt>
+            <dd class="col-10">
+                @Html.DisplayFor(model => model.isConfirmed)
+            </dd>
+        </div>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="OrderID" />
+        <input type="submit" value="Xóa" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-success">Quay về</a>
+    </form>
+</div>

@@ -1,0 +1,243 @@
+﻿@model IBook.Models.Book
+@using IBook.Extensions
+@using Microsoft.AspNetCore.Http
+
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Customer/Views/Shared/_Layout.cshtml";
+}
+<br />
+<form method="post">
+    <div class="p-5 border rounded">
+        <div class="form-group row ">
+            <div class="col-1"></div>
+            <div class="col-4" style="width:340px; height:497px;">
+                    <img class="img-responsive" style="width:340px; height:497px;" src="@Model.ImageUrl" />
+            </div>
+            <div class="col-1">
+            </div>
+            <div class="col-5">
+
+                <div class="product-name">
+                    <h1>@Model.Title</h1>
+                </div>
+                <span class="sku_wrapper">
+                    <span class="item-title">Mã sản phẩm:</span>
+                    <span>
+                        <strong>
+                            @Model.Title - @Model.BookID
+                        </strong>
+                    </span>
+                </span>
+                <span><br /></span>
+                <span class="category-url-wrapper">
+                    <span class="item-title">Tác giả: @Model.Author.Name</span>
+                </span>
+                <br />
+                <span class="category-url-wrapper">
+                    <span class="item-title">Thể loại: @Model.Category.Name</span>
+                </span>
+                <br />
+                <span class="category-url-wrapper">
+                    <span class="item-title">Nhà xuất bản: @Model.Publisher.Name</span>
+                </span>
+                <div class="short-description">
+                    <div class="std">
+                        <h5>
+
+                            <strong></strong>
+
+                        </h5><br>
+
+                    </div>
+                </div>
+
+                <p class="availability in-stock">
+                    <span class="item-title">
+                        <i>Còn lại: </i>
+                    </span>
+                    <span>
+                        <strong>
+                            @Model.Quantities
+                        </strong>
+                    </span>
+                    trong kho
+                </p>
+                <div class="price-box">
+
+                    <h3>@Model.Price VNĐ</h3>
+
+
+                </div>
+                <div class="add-to-box">
+                    <div class="add-to-cart nn-margin-bottom">
+
+                    </div>
+                    <br />
+                    @{
+                        bool isInBag = false;
+                        List<int> lstCart = HttpContextAccessor.HttpContext.Session.Get<List<int>>("ssShoppingCart");
+                        if (lstCart != null && lstCart.Contains(Model.BookID))
+                        {
+                            isInBag = true;
+                        }
+                    }
+                    @if (Model.Quantities != 0)
+                    {
+                        @if (isInBag)
+                        {
+                            <button type="submit" value="Remove from bag" asp-action="Remove" asp-route-id="@Model.BookID" class="btn btn-danger form-control">Xóa khỏi giỏ hàng</button>
+                        }
+                        else
+                        {
+                            <button type="submit" value="Add to bag" asp-route-id="@Model.BookID" class="btn btn-primary form-control">Thêm vào giỏ hàng</button>
+                        }
+                    }
+                    else
+                    {
+                        <label class="btn btn-danger form-control">Đã hết hàng</label>
+                    }
+
+                </div>
+
+
+            </div>
+            <div class="col-1">
+            </div>
+        </div>
+        <br />
+        <div>
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="active">
+                    <a href="#descriptions" role="tab" data-toggle="tab">
+                        Tóm tắt
+                    </a>
+                </li>
+                <li style="width:15px;"></li>
+                <li>
+                    <a href="#specifications" role="tab" data-toggle="tab">
+                        Thông tin chi tiết
+                    </a>
+                </li>
+                <li style="width:15px;"></li>
+                <li>
+                    <a href="#comments" role="tab" data-toggle="tab">
+                        <i class="fa fa-envelope"></i> Bình puận
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="tab-content" style="font-size:23px;">
+                <div class="tab-pane fade active in" id="descriptions">
+                    <h2>Tóm tắt</h2>
+                    <div>
+                        @Model.Summary
+                    </div>
+                </div>
+                <div class="tab-pane fade row" id="specifications">
+                    <h2>Chi tiết sản phẩm</h2>
+                    <div class="col-md-12">
+                        <table class="table table-hover table-striped table-bordered">
+                            <tr>
+                                <td>
+                                    Mã sản phẩm:
+                                </td>
+                                <td>
+                                    @Model.Title - @Model.BookID
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Tên sách:
+                                </td>
+                                <td>
+                                    @Model.Title
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Số trang:
+                                </td>
+                                <td>
+                                    @Model.NumberOfPages trang luôn bìa
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Tác giả:
+                                </td>
+                                <td>
+                                    @Model.Author.Name
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Thể loại:
+                                </td>
+                                <td>
+                                    @Model.Category.Name
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Nhà xuất bản:
+                                </td>
+                                <td>
+                                    @Model.Publisher.Name
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Số lượng còn:
+                                </td>
+                                <td>
+                                    @Model.Quantities quyển
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Ngày xuất bản:
+                                </td>
+                                <td>
+                                    @Model.CreateDate.ToShortDateString()
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Ngày tái bản:
+                                </td>
+                                <td>
+                                    @Model.ModifiedDate.ToShortDateString()
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Giá bán:
+                                </td>
+                                <td>
+                                    @Model.Price VNĐ
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6"></div>
+
+
+                </div>
+                <div class="tab-pane fade" id="comments">
+                    <h2>Tính năng hiện đang phát triển, quý khách vui lòng quay lại sau! Trân trọng xin lỗi vì sự bất tiện này!</h2>
+                    @*<div class="fb-comments" data-href="/chi-tiet/@Model.Name.ToAscii().ToLower()_@Model.Id" data-width="100%" data-numposts="5" data-colorscheme="light"></div>*@
+                </div>
+
+            </div>
+
+        </div>
+        <div class="form-group">
+            <input hidden asp-for="@Model.BookID" />
+            <a asp-action="Index" class="btn btn-success">Quay về</a>
+        </div>
+    </div>
+</form>

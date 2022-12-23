@@ -1,0 +1,33 @@
+﻿@model IBook.Models.Author
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-danger">Xóa tác giả</h1>
+<h3>Chắc chắn muốn xóa tác giả này?</h3>
+<div class="p-5 border rounded">
+    <h4>Tác giả</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt class="col-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-2">
+            @Html.DisplayNameFor(model => model.History)
+        </dt>
+        <dd class="col-10">
+            @Html.DisplayFor(model => model.History)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ID" />
+        <input type="submit" value="Xóa" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-success">Quay về</a>
+    </form>
+</div>

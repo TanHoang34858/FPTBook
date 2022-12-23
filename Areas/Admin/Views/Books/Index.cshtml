@@ -1,0 +1,118 @@
+﻿@model ReflectionIT.Mvc.Paging.PagingList<IBook.Models.Book>
+@using ReflectionIT.Mvc.Paging
+@addTagHelper *, ReflectionIT.Mvc.Paging
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-6">
+        <h2 class="text-info">Các đầu sách hiện  có</h2>
+    </div>
+    <div class="col-6 text-right">
+        <a asp-action="Create" class="btn btn-info"><i class="fas fa-plus"></i>&nbsp; Thêm sách mới</a>
+    </div>
+</div>
+<br />
+@using (Html.BeginForm())
+{
+    <p class="text-right">
+        Tên sách:@Html.TextBox("findstring")
+        <input type="submit" class="btn btn-outline-success my-2 my-sm-0" value="Tìm kiếm" />
+    </p>
+}
+<table class="table table-striped border">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantities)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ModifiedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumberOfPages)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsPurchase)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Publisher)
+            </th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantities)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreateDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModifiedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumberOfPages)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.ImageUrl)*@
+                    <a>
+                        <img style="width:50px; height:75px" src="@item.ImageUrl" />
+                    </a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsPurchase)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Publisher.Name)
+                </td>
+                <td>
+                    <partial name="_TableButtonPartial" model="item.BookID" />
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<nav hidden class="col-12 text-center">
+    @await this.Component.InvokeAsync("Pager", new { pagingList = this.Model })
+</nav>
+<nav class="col-12 text-center" style="font-size: 27px;">
+    <vc:pager paging-list="@Model" />
+</nav>

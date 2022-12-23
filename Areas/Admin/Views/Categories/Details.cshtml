@@ -1,0 +1,30 @@
+﻿@model IBook.Models.Category
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<h2 class="text-info">Chi tiết thể loại sách</h2>
+<div class="p-5 border rounded">
+    <h4>Thể loại</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+    <div class="form-group">
+        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.ID">Chỉnh sửa</a>
+        <a asp-action="Index" class="btn btn-success">Quay về</a>
+        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@Model.ID">Xóa</a>
+    </div>
+</div

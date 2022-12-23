@@ -1,0 +1,63 @@
+﻿@model IEnumerable<IBook.Models.OrderBook>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-6">
+        <h2 class="text-info">Danh sách đơn hàng</h2>
+    </div>
+</div>
+<table class="table table-striped border">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppointmentDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.isConfirmed)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AppointmentDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerPhone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.isConfirmed)
+                </td>
+                <td style="width:150px">
+                    <div class="btn-group" role="group">
+                        <a type="button" class="btn btn-primary" href="@Url.Action("Edit", new { id = item.OrderID })"><i class="fas fa-edit"></i></a>
+                        <a type="button" class="btn btn-success" href="@Url.Content("~/Admin/OrderBookDetails/Index/"+ item.OrderID )"><i class="far fa-list-alt"></i></a>
+                        <a type="button" class="btn btn-danger" href="@Url.Action("Delete", new { id = item.OrderID })"><i class="far fa-trash-alt"></i></a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

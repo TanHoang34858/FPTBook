@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-IBook-38B684DB-8C05-4A49-82C2-0CE180C5A2EA</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20191128020824_InitialDatabase.cs" />
+    <Compile Remove="Data\Migrations\20191128020824_InitialDatabase.Designer.cs" />
+    <Compile Remove="Data\Migrations\20191201145603_InitialDatabase1.cs" />
+    <Compile Remove="Data\Migrations\20191201145603_InitialDatabase1.Designer.cs" />
+    <Compile Remove="Data\Migrations\20191201145915_InitalDatabase.cs" />
+    <Compile Remove="Data\Migrations\20191201145915_InitalDatabase.Designer.cs" />
+    <Compile Remove="Data\Migrations\20191202131625_IntialDatabase.cs" />
+    <Compile Remove="Data\Migrations\20191202131625_IntialDatabase.Designer.cs" />
+    <Compile Remove="Data\Migrations\20191202161154_InitalDatabase.cs" />
+    <Compile Remove="Data\Migrations\20191202161154_InitalDatabase.Designer.cs" />
+    <Compile Remove="Data\Migrations\20191205012004_InitialDatabase.cs" />
+    <Compile Remove="Data\Migrations\20191205012004_InitialDatabase.Designer.cs" />
+    <Compile Remove="Data\Migrations\20191205090437_InitialDatabase1.cs" />
+    <Compile Remove="Data\Migrations\20191205090437_InitialDatabase1.Designer.cs" />
+    <Compile Remove="Data\Migrations\20191205171857_FinalDatabase.cs" />
+    <Compile Remove="Data\Migrations\20191205171857_FinalDatabase.Designer.cs" />
+    <Compile Remove="Data\Migrations\20191205172213_InitialDatabase.cs" />
+    <Compile Remove="Data\Migrations\20191205172213_InitialDatabase.Designer.cs" />
+    <Compile Remove="Data\Migrations\20191205173809_InitialDatabaseFinal.cs" />
+    <Compile Remove="Data\Migrations\20191205173809_InitialDatabaseFinal.Designer.cs" />
+    <Compile Remove="Data\Migrations\20191206060918_InitialDatabase1.cs" />
+    <Compile Remove="Data\Migrations\20191206060918_InitialDatabase1.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+    <PackageReference Include="ReflectionIT.Mvc.Paging" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Identity\Services\" />
+  </ItemGroup>
+
+</Project>

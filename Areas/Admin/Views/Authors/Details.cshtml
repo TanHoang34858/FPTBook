@@ -1,0 +1,31 @@
+﻿@model IBook.Models.Author
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-info">Chi tiết tác giả</h2>
+<div class="p-5 border rounded">
+    <h4>Tác giả</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.History)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.History)
+        </dd>
+    </dl>
+    <div class="form-group">
+        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.ID">Chỉnh sửa</a>
+        <a asp-action="Index" class="btn btn-success">Quay về</a>
+        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@Model.ID">Xóa</a>
+    </div>
+</div>

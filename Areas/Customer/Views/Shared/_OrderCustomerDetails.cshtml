@@ -1,0 +1,40 @@
+﻿@model IBook.Models.OrderBook
+
+<h4 class="text-success">Thông tin khách hàng</h4>
+
+<div style="height:100px; background-color:aliceblue" class="container border">
+    <div class="col-md-12">
+        <div class="row" style="padding-top:10px;">
+            <div class="col-md-2" style="padding-top:12px;">
+                Tên khách hàng
+            </div>
+            <div class="col-md-4">
+                <input asp-for="@Model.CustomerName" readonly class="form-control" />
+            </div>
+            <div class="col-md-2" style="padding-top:12px;">
+                Địa chỉ khách hàng
+            </div>
+            <div class="col-md-4">
+                <input asp-for="@Model.CustomerAddress" readonly class="form-control" />
+            </div>
+
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="row" style="padding-top:10px;">
+            <div class="col-md-2" style="padding-top:12px;">
+                Số điện thoại
+            </div>
+            <div class="col-md-4">
+                <input asp-for="@Model.CustomerPhone" readonly class="form-control" />
+            </div>
+            <div class="col-md-2" style="padding-top:12px;">
+                Ngày giao hàng
+            </div>
+            <div class="col-md-4">
+                <input asp-for="@Model.AppointmentDate" readonly class="form-control" />
+            </div>
+
+        </div>
+    </div>
+</div>

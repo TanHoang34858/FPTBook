@@ -1,0 +1,123 @@
+﻿@model IBook.Models.Book
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-danger">Xóa đầu sách</h2>
+
+<h3>Bạn chắc chắn muốn xóa đầu sách này?</h3>
+<div class="p-5 border rounded">
+    <h4>Sách</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <div class="row nn-margin-bottom ">
+            <div class="nn-product-image-box col-sm-1">
+            </div>
+            <div class="nn-product-image-box col-sm-4">
+                <div class="nn-product-image-box-main  ">
+                    <img class="img-responsive" style="height:600px; width:400px;" src="@Model.ImageUrl" />
+                </div>
+            </div>
+            <div class="nn-product-shop col-sm-6">
+
+                <div class="product-name">
+                    <h1>@Model.Title</h1>
+                </div>
+                <p class="availability in-stock">
+                    <span class="item-title">
+                        <i style="font-size:23px;">Tóm tắt: </i>
+                    </span>
+                    <span>
+                        @Model.Summary
+                    </span>
+                    trong kho
+                </p>
+                <p class="availability in-stock">
+                    <span class="item-title">
+                        <i style="font-size:23px;">Tác giả: </i>
+                    </span>
+                    <span>
+                        @Model.Author.Name
+                    </span>
+                </p>
+                <p class="availability in-stock">
+                    <span class="item-title">
+                        <i style="font-size:23px;">Thể loại: </i>
+                    </span>
+                    <span>
+                        @Model.Category.Name
+                    </span>
+                </p>
+                <p class="availability in-stock">
+                    <span class="item-title">
+                        <i style="font-size:23px;">Nhà xuất bản: </i>
+                    </span>
+                    <span>
+                        @Model.Publisher.Name
+                    </span>
+                </p>
+                <p class="availability in-stock">
+                    <span class="item-title">
+                        <i style="font-size:23px;">Số trang: </i>
+                    </span>
+                    <span>
+                        @Model.NumberOfPages
+                    </span>
+                    trang luôn bìa
+                </p>
+                <p class="availability in-stock">
+                    <span class="item-title">
+                        <i style="font-size:23px;">Ngày xuất bản: </i>
+                    </span>
+                    <span>
+                        @Model.CreateDate.ToShortDateString()
+                    </span>
+                </p>
+                <p class="availability in-stock">
+                    <span class="item-title">
+                        <i style="font-size:23px;">Ngày tái bản: </i>
+                    </span>
+                    <span>
+                        @Model.ModifiedDate.ToShortDateString()
+                    </span>
+                </p>
+                <p class="availability in-stock">
+                    <span class="item-title">
+                        <i style="font-size:23px;">Số lượng còn: </i>
+                    </span>
+                    <span>
+                        @Model.Quantities
+                    </span>
+                    Cuốn trong kho.
+                </p>
+                <p class="availability in-stock">
+                    <span class="item-title">
+                        <i style="font-size:23px;">Giá bán: </i>
+                    </span>
+                    <span>
+                        @Model.Price
+                    </span>
+                    VNĐ
+                </p>
+                <p class="availability in-stock">
+                    <span class="item-title">
+                        <i style="font-size:23px;">Được phép bán: </i>
+                    </span>
+                    <span>
+                        <label style="visibility:visible;">
+                            <input style="height:30px; width:30px;" disabled asp-for="IsPurchase" />
+                        </label>
+                    </span>
+                </p>
+            </div>
+            <div class="nn-product-image-box col-sm-1"></div>
+        </div>
+    </dl>
+    <form asp-action="Delete" class="form-group text-center">
+        <input type="hidden" asp-for="BookID" />
+        <input type="submit" value="Xóa" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-success">Quay về</a>
+    </form>
+</div>

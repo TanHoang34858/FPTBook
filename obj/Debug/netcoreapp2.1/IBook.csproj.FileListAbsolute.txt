@@ -1,0 +1,459 @@
+I:\IBook\bin\Debug\netcoreapp2.1\appsettings.Development.json
+I:\IBook\bin\Debug\netcoreapp2.1\appsettings.json
+I:\IBook\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+I:\IBook\bin\Debug\netcoreapp2.1\IBook.deps.json
+I:\IBook\bin\Debug\netcoreapp2.1\IBook.runtimeconfig.json
+I:\IBook\bin\Debug\netcoreapp2.1\IBook.runtimeconfig.dev.json
+I:\IBook\bin\Debug\netcoreapp2.1\IBook.dll
+I:\IBook\bin\Debug\netcoreapp2.1\IBook.pdb
+I:\IBook\bin\Debug\netcoreapp2.1\IBook.Views.dll
+I:\IBook\bin\Debug\netcoreapp2.1\IBook.Views.pdb
+I:\IBook\obj\Debug\netcoreapp2.1\IBook.csprojAssemblyReference.cache
+I:\IBook\obj\Debug\netcoreapp2.1\IBook.RazorAssemblyInfo.cache
+I:\IBook\obj\Debug\netcoreapp2.1\IBook.RazorAssemblyInfo.cs
+I:\IBook\obj\Debug\netcoreapp2.1\IBook.AssemblyInfoInputs.cache
+I:\IBook\obj\Debug\netcoreapp2.1\IBook.AssemblyInfo.cs
+I:\IBook\obj\Debug\netcoreapp2.1\IBook.TagHelpers.input.cache
+I:\IBook\obj\Debug\netcoreapp2.1\IBook.TagHelpers.output.cache
+I:\IBook\obj\Debug\netcoreapp2.1\IBook.RazorCoreGenerate.cache
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\IBook.RazorTargetAssemblyInfo.cache
+I:\IBook\obj\Debug\netcoreapp2.1\IBook.RazorTargetAssemblyInfo.cs
+I:\IBook\obj\Debug\netcoreapp2.1\IBook.Views.pdb
+I:\IBook\obj\Debug\netcoreapp2.1\IBook.dll
+I:\IBook\obj\Debug\netcoreapp2.1\IBook.pdb
+I:\IBook\obj\Debug\netcoreapp2.1\IBook.csproj.CopyComplete
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\_ViewImports.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\_ViewStart.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Error.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_LoginPartial.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_TableButtonPartial.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Create.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Delete.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Details.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Edit.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Index.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Create.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Delete.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Details.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Edit.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Index.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Create.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Delete.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Details.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Edit.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Index.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\About.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Contact.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\Error.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_Layout.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_LoginPartial.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Create.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Delete.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Details.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Edit.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Index.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Delete.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Edit.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Index.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBookDetails\Index.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Homes\Index.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Create.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Delete.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Details.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Edit.cshtml.g.cs
+I:\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Index.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.deps.json
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.runtimeconfig.json
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.runtimeconfig.dev.json
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.dll
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.pdb
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.Views.dll
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.Views.pdb
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.csprojAssemblyReference.cache
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorAssemblyInfo.cache
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorAssemblyInfo.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.TagHelpers.input.cache
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.TagHelpers.output.cache
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorCoreGenerate.cache
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Create.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Delete.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Details.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Edit.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Index.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Create.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Delete.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Details.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Edit.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Index.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Create.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Delete.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Details.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Edit.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Index.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Homes\Index.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBookDetails\Index.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Delete.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Edit.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Index.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Create.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Delete.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Details.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Edit.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Index.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Error.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_TableButtonPartial.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\_ViewImports.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\_ViewStart.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\About.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Contact.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\Error.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Create.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Delete.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Details.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Edit.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Index.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorTargetAssemblyInfo.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.Views.pdb
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.dll
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.pdb
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\OrderBookConfirmed.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_OrderBookDetails.cshtml.g.cs
+C:\Users\Admin\OneDrive\Desktop\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_OrderCustomerDetails.cshtml.g.cs
+F:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\appsettings.Development.json
+F:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\appsettings.json
+F:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+F:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.deps.json
+F:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.runtimeconfig.json
+F:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.runtimeconfig.dev.json
+F:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.dll
+F:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.pdb
+F:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.Views.dll
+F:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.Views.pdb
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.csprojAssemblyReference.cache
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorAssemblyInfo.cache
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorAssemblyInfo.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.AssemblyInfoInputs.cache
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.AssemblyInfo.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.TagHelpers.input.cache
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.TagHelpers.output.cache
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorCoreGenerate.cache
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Create.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Delete.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Details.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Edit.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Index.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Create.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Delete.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Details.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Edit.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Index.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Create.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Delete.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Details.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Edit.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Index.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Homes\Index.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBookDetails\Index.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Delete.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Edit.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Index.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Create.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Delete.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Details.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Edit.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Index.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Error.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_LoginPartial.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_TableButtonPartial.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\_ViewImports.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\_ViewStart.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\About.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Contact.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\Error.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_Layout.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_LoginPartial.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_OrderBookDetails.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_OrderCustomerDetails.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Create.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Delete.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Details.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Edit.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Index.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\OrderBookConfirmed.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorTargetAssemblyInfo.cache
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorTargetAssemblyInfo.cs
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.Views.pdb
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.dll
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.pdb
+F:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.csproj.CopyComplete
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.dll
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.pdb
+E:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\appsettings.json
+E:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.deps.json
+E:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.runtimeconfig.json
+E:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.runtimeconfig.dev.json
+E:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.dll
+E:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.pdb
+E:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.Views.dll
+E:\DoAnWeb\IBook\bin\Debug\netcoreapp2.1\IBook.Views.pdb
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.csprojAssemblyReference.cache
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorAssemblyInfo.cache
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorAssemblyInfo.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.AssemblyInfoInputs.cache
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.AssemblyInfo.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.TagHelpers.input.cache
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.TagHelpers.output.cache
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorCoreGenerate.cache
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Create.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Delete.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Details.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Edit.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Index.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Create.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Delete.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Details.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Edit.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Index.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Create.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Delete.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Details.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Edit.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Index.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Homes\Index.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBookDetails\Index.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Delete.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Edit.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Index.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Create.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Delete.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Details.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Edit.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Index.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Error.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_LoginPartial.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_TableButtonPartial.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\_ViewImports.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\_ViewStart.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\About.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Contact.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\Error.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_Layout.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_LoginPartial.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_OrderBookDetails.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_OrderCustomerDetails.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Create.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Delete.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Details.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Edit.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Index.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\OrderBookConfirmed.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorTargetAssemblyInfo.cache
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.RazorTargetAssemblyInfo.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.Views.pdb
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\IBook.csproj.CopyComplete
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminUsers\Index.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminUsers\Edit.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminUsers\Delete.cshtml.g.cs
+E:\DoAnWeb\IBook\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+F:\DoAnWeb - Final\IBook\bin\Debug\netcoreapp2.1\appsettings.Development.json
+F:\DoAnWeb - Final\IBook\bin\Debug\netcoreapp2.1\appsettings.json
+F:\DoAnWeb - Final\IBook\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+F:\DoAnWeb - Final\IBook\bin\Debug\netcoreapp2.1\IBook.deps.json
+F:\DoAnWeb - Final\IBook\bin\Debug\netcoreapp2.1\IBook.runtimeconfig.json
+F:\DoAnWeb - Final\IBook\bin\Debug\netcoreapp2.1\IBook.runtimeconfig.dev.json
+F:\DoAnWeb - Final\IBook\bin\Debug\netcoreapp2.1\IBook.dll
+F:\DoAnWeb - Final\IBook\bin\Debug\netcoreapp2.1\IBook.pdb
+F:\DoAnWeb - Final\IBook\bin\Debug\netcoreapp2.1\IBook.Views.dll
+F:\DoAnWeb - Final\IBook\bin\Debug\netcoreapp2.1\IBook.Views.pdb
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\IBook.csprojAssemblyReference.cache
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\IBook.RazorAssemblyInfo.cache
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\IBook.RazorAssemblyInfo.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\IBook.AssemblyInfoInputs.cache
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\IBook.AssemblyInfo.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\IBook.TagHelpers.input.cache
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\IBook.TagHelpers.output.cache
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\IBook.RazorCoreGenerate.cache
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminUsers\Delete.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminUsers\Edit.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminUsers\Index.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Create.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Delete.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Details.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Edit.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Authors\Index.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Create.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Delete.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Details.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Edit.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Books\Index.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Create.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Delete.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Details.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Edit.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Categories\Index.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Homes\Index.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBookDetails\Index.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Delete.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Edit.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\OrderBooks\Index.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Create.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Delete.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Details.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Edit.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Publishers\Index.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Error.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_LoginPartial.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_TableButtonPartial.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\_ViewImports.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\_ViewStart.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\About.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Contact.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\Error.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_Layout.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_LoginPartial.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_OrderBookDetails.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_OrderCustomerDetails.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Create.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Delete.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Details.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Edit.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\Index.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\ShoppingCarts\OrderBookConfirmed.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\IBook.RazorTargetAssemblyInfo.cache
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\IBook.RazorTargetAssemblyInfo.cs
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\IBook.Views.pdb
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\IBook.dll
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\IBook.pdb
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\IBook.csproj.CopyComplete
+F:\DoAnWeb - Final\IBook\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

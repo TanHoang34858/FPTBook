@@ -1,0 +1,127 @@
+﻿@model IBook.Models.ViewModel.ShoppingCartViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Customer/Views/Shared/_Layout.cshtml";
+}
+<form method="post">
+    <br /><br />
+    <h2 class="text-info">Giỏ hàng của bạn</h2>
+    <br />
+    @if (Model.books.Count > 0)
+    {
+        <div class="container border border-secondary rounded " style="padding: 15px; border-radius:5px; border:1px solid #bbb9b9">
+            <div class="row">
+                <div class="col-md-8" style="border-right:1px solid #bbb9b9;">
+                    <table class="table table-striped rounded" style="width:100%; border-radius:5px; border:1px solid #bbb9b9 ">
+                        <tr class="table-info">
+                            <th style="text-align:center; width:20%"></th>
+                            <th style="text-align:center;">
+                                <label asp-for="@Model.books.FirstOrDefault().Title"></label>
+                            </th>
+                            <th style="text-align:center;">
+                                <label asp-for="@Model.books.FirstOrDefault().Price"></label>
+                            </th>
+                            <th style="text-align:center;">
+                                <label asp-for="@Model.books.FirstOrDefault().Author.Name"></label>
+                            </th>
+                            <th style="text-align:center;">
+                                <label asp-for="@Model.books.FirstOrDefault().Category.Name"></label>
+                            </th>
+                            <th style="text-align:center;"></th>
+                        </tr>
+                        
+                        @foreach (var item in Model.books)
+                        {
+                            <tr style="padding:50px;">
+                                <td>
+                                    <a asp-area="Customer" asp-controller="Home" asp-action="Details" asp-route-id="@item.BookID">
+                                        <img src="@item.ImageUrl" style="width:60px; height:90px; margin:auto; display:block; border-radius:5px; border:1px solid #bbb9b9" />
+                                    </a>
+                                </td>
+                                <td style="text-align:center;">
+                                    @Html.DisplayFor(x => item.Title)
+                                </td>
+                                <td style="text-align:center;">
+                                    @Html.DisplayFor(x => item.Price)
+                                </td>
+                                <td style="text-align:center;">
+                                    @Html.DisplayFor(x => item.Author.Name)
+                                </td>
+                                <td style="text-align:center;">
+                                    @Html.DisplayFor(x => item.Category.Name)
+                                </td>
+                                <td style="text-align:center">
+                                    <button type="submit" class="btn btn-danger" asp-action="remove" asp-route-id="@item.BookID">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </button>
+</tr>
+                        }
+                    </table>
+                </div>
+                <div class="col-md-4" style="padding-left:30px;">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label>Tên khách hàng:</label>
+                        </div>
+                        <div class="col-md-12" style="padding-bottom:15px">
+                            <input asp-for="@Model.orderBook.CustomerName" class="form-control" />
+                        </div>
+                        <div class="col-md-12">
+                            <label>Địa chỉ giao hàng:</label>
+                        </div>
+                        <div class="col-md-12" style="padding-bottom:15px">
+                            <input asp-for="@Model.orderBook.CustomerAddress" class="form-control" />
+                        </div>
+                        <div class="col-md-12">
+                            <label>Số điện thoại nhận hàng:</label>
+                        </div>
+                        <div class="col-md-12" style="padding-bottom:15px">
+                            <input asp-for="@Model.orderBook.CustomerPhone" class="form-control" />
+                        </div>
+                        <div class="col-md-12">
+                            <label>Ngày giao hàng:</label>
+                        </div>
+                        <div class="col-md-12" style="padding-bottom:15px">
+                            <input asp-for="@Model.orderBook.AppointmentDate" value="" type="text" id="datepicker" class="form-control" autocomplete="off" />
+                        </div>
+                        <div class="col-md-12">
+                            <label>Thời gian giao hàng:</label>
+                        </div>
+                        <div class="col-md-12" style="padding-bottom:15px">
+                            <input asp-for="@Model.orderBook.AppointmentTime" value="" type="text" class="timepicker form-control" autocomplete="off" />
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <button type="submit" id="btnPlaceOrder" class="btn btn-success">Đặt hàng</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div>Không có sản phẩm nào trong giỏ hàng...</div>
+    }
+</form>
+
+@section Scripts{
+    <script>
+        $('.timepicker').timepicker({
+            timeFormat: 'h:mm p',
+            interval: 30,
+            minTime: '10',
+            maxTime: '5:00pm',
+            startTime: '10:00',
+            dynamic: true,
+            dropdown: true,
+            scrollbar: true
+        });
+
+        $(function () {
+            $("#datepicker").datepicker({
+                minDate: +3, maxDate: "+3M", dateFormat:"mm/dd/yy"
+            });
+        });
+    </script>
+}

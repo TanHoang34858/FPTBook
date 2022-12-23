@@ -1,0 +1,50 @@
+﻿@model ReflectionIT.Mvc.Paging.PagingList<IBook.Models.Book>
+@using ReflectionIT.Mvc.Paging
+@addTagHelper *, ReflectionIT.Mvc.Paging
+
+<br />
+@using (Html.BeginForm())
+{
+    <p class="text-right">
+        Tên sách:@Html.TextBox("findstring")
+        <input type="submit" class="btn btn-outline-success my-2 my-sm-0" value="Tìm kiếm" />
+    </p>
+}
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-4">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal" style="width:213px; height:54px;">
+                        <label style="font-size:23px;color:steelblue;">@product.Title</label>
+                    </h4>
+                </div>
+
+                <img class="card-img-top" style="height:509px;" src="@product.ImageUrl" alt="Card Image" />
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <label style="font-size:20px; color:#a51313"><b>Giá:@product.Price</b> VNĐ</label>
+                        </div>
+                        @if (product.Quantities != 0)
+                        {
+                            <a asp-action="Details" asp-controller="Home" class="btn btn-success pull-right btn-outline-info" asp-route-id="@product.BookID">Xem thêm</a>
+                        }
+                        else
+                        {
+                            <a asp-action="Details" asp-controller="Home" class="btn btn-danger btn-outline-danger" asp-route-id="@product.BookID">Hết hàng</a>
+                        }
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    }
+</div>
+<nav hidden class="col-12 text-center">
+    @await this.Component.InvokeAsync("Pager", new { pagingList = this.Model })
+</nav>
+<nav class="col-12 text-center" style="font-size: 27px;">
+    <vc:pager paging-list="@Model" />
+</nav>
