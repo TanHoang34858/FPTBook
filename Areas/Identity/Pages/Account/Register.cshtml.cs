@@ -65,11 +65,11 @@ namespace IBook.Areas.Identity.Pages.Account
             public string Name { get; set; }
 
             [Required]
-            [Display(Name = "Số điện thoại")]
+            [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
 
             [Required]
-            [Display(Name = "Quyền quản trị")]
+            [Display(Name = "Admin rights")]
             public bool IsSuperAdmin { get; set; }
         }
 
