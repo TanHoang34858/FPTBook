@@ -6,12 +6,12 @@ namespace IBook.Models
 {
     public class Author
     {
-        [Display(Name = "Mã tác giả")]
+        [Display(Name = "Author ID")]
         public int ID { get; set; }
-        [Required(ErrorMessage = "Giá trị này không được bỏ trống")]
+        [Required(ErrorMessage = "This value cannot be left blank")]
         [Display(Name = "Name Author")]
         public string Name { get; set; }
-        [Display(Name = "Tiểu sử")]
+        [Display(Name = "Story")]
         public string History { get; set; }
         public virtual ICollection<Book> Books { get; set; }
     }
