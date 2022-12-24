@@ -9,7 +9,7 @@ namespace IBook.Models
         [Display(Name = "Mã tác giả")]
         public int ID { get; set; }
         [Required(ErrorMessage = "Giá trị này không được bỏ trống")]
-        [Display(Name = "Tên tác giả")]
+        [Display(Name = "Name Author")]
         public string Name { get; set; }
         [Display(Name = "Tiểu sử")]
         public string History { get; set; }
