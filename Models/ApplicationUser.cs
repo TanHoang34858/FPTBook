@@ -10,7 +10,7 @@ namespace IBook.Models
 {
     public class ApplicationUser : IdentityUser
     {
-        [Display(Name =("Nhân viên"))]
+        [Display(Name =("Staff"))]
         public string Name { get; set; }
 
 
