@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - IBook</title>
+    <title>@ViewData["Title"] - FPTBook</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -34,11 +34,11 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Index"></a></li>
-                <li class="nav-item"><a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Index">Trang chủ</a></li>
-                <li class="nav-item"><a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Contact">Liên hệ</a></li>
+                <li class="nav-item"><a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Index">Home page</a></li>
+                <li class="nav-item"><a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Contact">Contact</a></li>
                 @if (User.IsInRole(SD.AdminEndUser) || User.IsInRole(SD.SupperAdminEndUser))
                 {
-                    <li class="nav-item"><a class="nav-link" asp-area="Admin" asp-controller="Homes" asp-action="Index">Vùng quản trị</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="Admin" asp-controller="Homes" asp-action="Index">Admin area</a></li>
                 }
                 @if (HttpContextAccessor.HttpContext.Session.Get<List<int>>("ssShoppingCart") != null)
                 {

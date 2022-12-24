@@ -41,7 +41,7 @@
                 </span>
                 <br />
                 <span class="category-url-wrapper">
-                    <span class="item-title">Nhà xuất bản: @Model.Publisher.Name</span>
+                    <span class="item-title">Publishing company: @Model.Publisher.Name</span>
                 </span>
                 <div class="short-description">
                     <div class="std">
@@ -162,7 +162,7 @@
                                     Number of pages:
                                 </td>
                                 <td>
-                                    @Model.NumberOfPages trang luôn bìa
+                                    @Model.NumberOfPages Cover page
                                 </td>
                             </tr>
                             <tr>
@@ -237,7 +237,7 @@
         </div>
         <div class="form-group">
             <input hidden asp-for="@Model.BookID" />
-            <a asp-action="Index" class="btn btn-success">Quay về</a>
+            <a asp-action="Index" class="btn btn-success">Return</a>
         </div>
     </div>
 </form>
