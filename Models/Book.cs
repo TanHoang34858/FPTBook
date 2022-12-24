@@ -9,7 +9,7 @@ namespace IBook.Models
     {
         public int BookID { get; set; }
 
-        [Display(Name = "Tên sách")]
+        [Display(Name = "Book name")]
         public string Title { get; set; }
 
         [Display(Name = "Tóm tắt")]
