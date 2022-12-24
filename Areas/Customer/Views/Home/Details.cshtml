@@ -24,7 +24,7 @@
                     <h1>@Model.Title</h1>
                 </div>
                 <span class="sku_wrapper">
-                    <span class="item-title">Mã sản phẩm:</span>
+                    <span class="item-title">Product code:</span>
                     <span>
                         <strong>
                             @Model.Title - @Model.BookID
@@ -33,11 +33,11 @@
                 </span>
                 <span><br /></span>
                 <span class="category-url-wrapper">
-                    <span class="item-title">Tác giả: @Model.Author.Name</span>
+                    <span class="item-title">Author: @Model.Author.Name</span>
                 </span>
                 <br />
                 <span class="category-url-wrapper">
-                    <span class="item-title">Thể loại: @Model.Category.Name</span>
+                    <span class="item-title">Category: @Model.Category.Name</span>
                 </span>
                 <br />
                 <span class="category-url-wrapper">
@@ -56,14 +56,14 @@
 
                 <p class="availability in-stock">
                     <span class="item-title">
-                        <i>Còn lại: </i>
+                        <i>Remaining: </i>
                     </span>
                     <span>
                         <strong>
                             @Model.Quantities
                         </strong>
                     </span>
-                    trong kho
+                    In stock
                 </p>
                 <div class="price-box">
 
@@ -88,16 +88,16 @@
                     {
                         @if (isInBag)
                         {
-                            <button type="submit" value="Remove from bag" asp-action="Remove" asp-route-id="@Model.BookID" class="btn btn-danger form-control">Xóa khỏi giỏ hàng</button>
+                            <button type="submit" value="Remove from bag" asp-action="Remove" asp-route-id="@Model.BookID" class="btn btn-danger form-control">Remove from cart</button>
                         }
                         else
                         {
-                            <button type="submit" value="Add to bag" asp-route-id="@Model.BookID" class="btn btn-primary form-control">Thêm vào giỏ hàng</button>
+                            <button type="submit" value="Add to bag" asp-route-id="@Model.BookID" class="btn btn-primary form-control">Add to cart</button>
                         }
                     }
                     else
                     {
-                        <label class="btn btn-danger form-control">Đã hết hàng</label>
+                        <label class="btn btn-danger form-control">Out of stock</label>
                     }
 
                 </div>
@@ -112,19 +112,19 @@
             <ul class="nav nav-tabs" role="tablist">
                 <li class="active">
                     <a href="#descriptions" role="tab" data-toggle="tab">
-                        Tóm tắt
+                        Summary
                     </a>
                 </li>
                 <li style="width:15px;"></li>
                 <li>
                     <a href="#specifications" role="tab" data-toggle="tab">
-                        Thông tin chi tiết
+                        Details
                     </a>
                 </li>
                 <li style="width:15px;"></li>
                 <li>
                     <a href="#comments" role="tab" data-toggle="tab">
-                        <i class="fa fa-envelope"></i> Bình puận
+                        <i class="fa fa-envelope"></i> comment
                     </a>
                 </li>
 
@@ -132,18 +132,18 @@
 
             <div class="tab-content" style="font-size:23px;">
                 <div class="tab-pane fade active in" id="descriptions">
-                    <h2>Tóm tắt</h2>
+                    <h2>Summary</h2>
                     <div>
                         @Model.Summary
                     </div>
                 </div>
                 <div class="tab-pane fade row" id="specifications">
-                    <h2>Chi tiết sản phẩm</h2>
+                    <h2>Product details</h2>
                     <div class="col-md-12">
                         <table class="table table-hover table-striped table-bordered">
                             <tr>
                                 <td>
-                                    Mã sản phẩm:
+                                    Product code:
                                 </td>
                                 <td>
                                     @Model.Title - @Model.BookID
@@ -151,7 +151,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    Tên sách:
+                                    Book title:
                                 </td>
                                 <td>
                                     @Model.Title
@@ -159,7 +159,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    Số trang:
+                                    Number of pages:
                                 </td>
                                 <td>
                                     @Model.NumberOfPages trang luôn bìa
@@ -167,7 +167,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    Tác giả:
+                                    Author:
                                 </td>
                                 <td>
                                     @Model.Author.Name
@@ -175,7 +175,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    Thể loại:
+                                    Category:
                                 </td>
                                 <td>
                                     @Model.Category.Name
@@ -183,7 +183,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    Nhà xuất bản:
+                                    Publishing company:
                                 </td>
                                 <td>
                                     @Model.Publisher.Name
@@ -191,15 +191,15 @@
                             </tr>
                             <tr>
                                 <td>
-                                    Số lượng còn:
+                                    Quantity remaining:
                                 </td>
                                 <td>
-                                    @Model.Quantities quyển
+                                    @Model.Quantities Book
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    Ngày xuất bản:
+                                    Publication date:
                                 </td>
                                 <td>
                                     @Model.CreateDate.ToShortDateString()
@@ -207,7 +207,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    Ngày tái bản:
+                                    Reprint date:
                                 </td>
                                 <td>
                                     @Model.ModifiedDate.ToShortDateString()
@@ -215,7 +215,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    Giá bán:
+                                    Price:
                                 </td>
                                 <td>
                                     @Model.Price VNĐ
@@ -228,7 +228,7 @@
 
                 </div>
                 <div class="tab-pane fade" id="comments">
-                    <h2>Tính năng hiện đang phát triển, quý khách vui lòng quay lại sau! Trân trọng xin lỗi vì sự bất tiện này!</h2>
+                    <h2>Feature is currently under development, please come back later! Sincerely apologize for this inconvenience!</h2>
                     @*<div class="fb-comments" data-href="/chi-tiet/@Model.Name.ToAscii().ToLower()_@Model.Id" data-width="100%" data-numposts="5" data-colorscheme="light"></div>*@
                 </div>
 

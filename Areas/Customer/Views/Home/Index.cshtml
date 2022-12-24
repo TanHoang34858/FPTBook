@@ -7,7 +7,7 @@
 {
     <p class="text-right">
         Tên sách:@Html.TextBox("findstring")
-        <input type="submit" class="btn btn-outline-success my-2 my-sm-0" value="Tìm kiếm" />
+        <input type="submit" class="btn btn-outline-success my-2 my-sm-0" value="Search" />
     </p>
 }
 <div class="row">
@@ -25,15 +25,15 @@
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <label style="font-size:20px; color:#a51313"><b>Giá:@product.Price</b> VNĐ</label>
+                            <label style="font-size:20px; color:#a51313"><b>Price:@product.Price</b> VNĐ</label>
                         </div>
                         @if (product.Quantities != 0)
                         {
-                            <a asp-action="Details" asp-controller="Home" class="btn btn-success pull-right btn-outline-info" asp-route-id="@product.BookID">Xem thêm</a>
+                            <a asp-action="Details" asp-controller="Home" class="btn btn-success pull-right btn-outline-info" asp-route-id="@product.BookID">See more</a>
                         }
                         else
                         {
-                            <a asp-action="Details" asp-controller="Home" class="btn btn-danger btn-outline-danger" asp-route-id="@product.BookID">Hết hàng</a>
+                            <a asp-action="Details" asp-controller="Home" class="btn btn-danger btn-outline-danger" asp-route-id="@product.BookID">Out of stock</a>
                         }
                     </div>
                 </div>

@@ -5,10 +5,10 @@
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<h1 class="text-danger">Xóa đơn hàng</h1>
-<h3>Chắc chắn muốn xóa đơn hàng này?</h3>
+<h1 class="text-danger">Delete order</h1>
+<h3>Sure want to delete this order?</h3>
 <div class="p-5 border rounded">
-    <h4>Đơn hàng</h4>
+    <h4>Order</h4>
     <hr />
     <dl class="dl-horizontal">
         <div class="form-group row">
@@ -55,7 +55,7 @@
 
     <form asp-action="Delete">
         <input type="hidden" asp-for="OrderID" />
-        <input type="submit" value="Xóa" class="btn btn-danger" />
-        <a asp-action="Index" class="btn btn-success">Quay về</a>
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-success">Return</a>
     </form>
 </div>

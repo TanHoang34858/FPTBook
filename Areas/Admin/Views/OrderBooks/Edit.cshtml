@@ -5,7 +5,7 @@
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<h2 class="text-info">Chỉnh sửa đơn hàng</h2>
+<h2 class="text-info">Order Editing</h2>
 <form method="post" asp-action="Edit">
     <div class="p-5 border rounded">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -57,8 +57,8 @@
             </div>
         </div>
         <div class="form-group text-center">
-            <input type="submit" class="btn btn-primary" value="Cập nhật" />
-            <a asp-action="Index" class="btn btn-success">Quay về</a>
+            <input type="submit" class="btn btn-primary" value="Update" />
+            <a asp-action="Index" class="btn btn-success">Return</a>
         </div>
     </div>
 </form>

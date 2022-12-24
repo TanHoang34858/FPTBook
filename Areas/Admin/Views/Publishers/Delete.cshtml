@@ -5,10 +5,10 @@
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<h1 class="text-danger">Xóa nhà xuất bản</h1>
-<h3>Chắc chắn muốn xóa nhà xuất bản này?</h3>
+<h1 class="text-danger">Remove publisher</h1>
+<h3>Sure want to delete this publisher?</h3>
 <div class="p-5 border rounded">
-    <h4>Nhà xuất bản</h4>
+    <h4>Publishing company</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -27,7 +27,7 @@
 
     <form asp-action="Delete">
         <input type="hidden" asp-for="ID" />
-        <input type="submit" value="Xóa" class="btn btn-danger" />
-        <a asp-action="Index" class="btn btn-success">Quay về</a>
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-success">Return</a>
     </form>
 </div>
