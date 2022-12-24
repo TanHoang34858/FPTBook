@@ -12,50 +12,50 @@ namespace IBook.Models
         [Display(Name = "Book name")]
         public string Title { get; set; }
 
-        [Display(Name = "Tóm tắt")]
+        [Display(Name = "Summary")]
         public string Summary { get; set; }
 
-        [Display(Name = "Số lượng")]
+        [Display(Name = "Quantity")]
         public int Quantities { get; set; }
 
         [DataType(DataType.Date)]
-        [Display(Name = "Ngày xuất bản")]
+        [Display(Name = "Publication date")]
         public DateTime CreateDate { get; set; }
 
         [DataType(DataType.Date)]
-        [Display(Name = "Ngày tái bản")]
+        [Display(Name = "Reprint date")]
         public DateTime ModifiedDate { get; set; }
 
-        [Display(Name = "Số trang")]
+        [Display(Name = "Number of pages")]
         public int NumberOfPages { get; set; }
 
-        [Display(Name = "Giá bán")]
+        [Display(Name = "Price")]
         public Int64 Price { get; set; }
 
-        [Display(Name = "Ảnh bìa")]
+        [Display(Name = "Cover image")]
         public string ImageUrl { get; set; }
 
-        [Display(Name = "Được phép bán")]
+        [Display(Name = "Permission to sell")]
         public Boolean IsPurchase { get; set; }
 
-        [Display(Name = "Tác giả")]
+        [Display(Name = "Author")]
         public int AuthorID { get; set; }
 
-        [Display(Name = "Thể loại")]
+        [Display(Name = "Category")]
         public int CategoryID { get; set; }
 
-        [Display(Name = "Nhà xuất bản")]
+        [Display(Name = "Publisher")]
         public int PublisherID { get; set; }
 
-        [Display(Name = "Tác giả")]
+        [Display(Name = "Author")]
         public virtual Author Author { get; set; }
 
-        [Display(Name = "Thể loại")]
+        [Display(Name = "Category")]
         public virtual Category Category { get; set; }
 
         public virtual ICollection<OrderBookDetail> OrderBookDetails { get; set; }
 
-        [Display(Name = "Tác giả")]
+        [Display(Name = "Author")]
         public virtual Publisher Publisher { get; set; }
     }
 }
