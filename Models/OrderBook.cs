@@ -9,26 +9,26 @@ namespace IBook.Models
 { 
     public class OrderBook
     {
-        [Display(Name = "Mã đơn hàng")]
+        [Display(Name = "Code orders")]
         public int OrderID { get; set; }
 
-        [Display(Name = "Ngày giao hàng")]
+        [Display(Name = "Delivery date")]
         public DateTime AppointmentDate { get; set; }
 
         [NotMapped]
-        [Display(Name = "Giờ giao hàng")]
+        [Display(Name = "Delivery time")]
         public DateTime AppointmentTime { get; set; }
 
-        [Display(Name = "Tên khách hàng")]
+        [Display(Name = "Customer name")]
         public string CustomerName { get; set; }
 
-        [Display(Name = "Địa chỉ giao hàng")]
+        [Display(Name = "Delivery address")]
         public string CustomerAddress { get; set; }
 
-        [Display(Name = "Số điện thoại liên hệ")]
+        [Display(Name = "Contact phone number")]
         public string CustomerPhone { get; set; }
 
-        [Display(Name = "Xác nhận")]
+        [Display(Name = "Confirm")]
         public Boolean isConfirmed { get; set; }
         public virtual ICollection<OrderBookDetail> OrderBookDetails { get; set; }
     }

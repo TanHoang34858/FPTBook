@@ -9,12 +9,12 @@ namespace IBook.Models
 {
     public class Publisher
     {
-        [Display(Name = "Mã nhà xuất bản")]
+        [Display(Name = "Publisher code")]
         public int ID { get; set; }
-        [Required(ErrorMessage = "Giá trị này không được bỏ trống")]
-        [Display(Name = "Mã nhà xuất bản")]
+        [Required(ErrorMessage = "This value cannot be left blank")]
+        [Display(Name = "Publisher code")]
         public string Name { get; set; }
-        [Display(Name = "Mô tả")]
+        [Display(Name = "Describe")]
         public string Description { get; set; }
         public virtual ICollection<Book> Books { get; set; }
     }
