@@ -5,7 +5,7 @@
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<h2 class="text-info">Chỉnh sửa thông tin tác giả</h2>
+<h2 class="text-info">Edit author information</h2>
 <form method="post" asp-action="Edit">
     <div class="p-5 border rounded">
         <input type="hidden" asp-for="ID" />
@@ -29,8 +29,8 @@
             <span asp-validation-for="History" class="text-danger"></span>
         </div>
         <div class="form-group text-center">
-            <input type="submit" class="btn btn-primary" value="Cập nhật" />
-            <a asp-action="Index" class="btn btn-success">Quay về</a>
+            <input type="submit" class="btn btn-primary" value="Update" />
+            <a asp-action="Index" class="btn btn-success">Return</a>
         </div>
     </div>
 </form>

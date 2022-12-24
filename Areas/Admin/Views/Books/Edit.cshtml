@@ -4,7 +4,7 @@
     ViewData["Title"] = "Edit";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
-<h2 class="text-info">Chỉnh sửa thông tin đầu sách</h2>
+<h2 class="text-info">Edit title information</h2>
 <form method="post" enctype="multipart/form-data" asp-action="Edit">
     <div class="p-5 border rounded">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -107,8 +107,8 @@
         <input asp-for="ImageUrl" hidden value="NULL" class="form-control" />
 
         <div class="form-group text-center">
-            <input type="submit" class="btn btn-primary" value="Cập nhật" />
-            <a asp-action="Index" class="btn btn-success">Quay về</a>
+            <input type="submit" class="btn btn-primary" value="Update" />
+            <a asp-action="Index" class="btn btn-success">Return</a>
         </div>
     </div>
 </form>

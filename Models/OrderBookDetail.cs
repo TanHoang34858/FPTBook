@@ -6,7 +6,7 @@ namespace IBook.Models
 {
     public class OrderBookDetail
     {
-        [Display(Name = "Mã chi tiết đơn hàng")]
+        [Display(Name = "Order Detail ID")]
         [ForeignKey("OrderBook")]
         public int OrderBookID { get; set; }
 

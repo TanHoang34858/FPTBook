@@ -5,7 +5,7 @@
 }
 <form method="post">
     <br /><br />
-    <h2 class="text-info">Giỏ hàng của bạn</h2>
+    <h2 class="text-info">Your cart</h2>
     <br />
     @if (Model.books.Count > 0)
     {
@@ -61,37 +61,37 @@
                 <div class="col-md-4" style="padding-left:30px;">
                     <div class="row">
                         <div class="col-md-12">
-                            <label>Tên khách hàng:</label>
+                            <label>Customer name:</label>
                         </div>
                         <div class="col-md-12" style="padding-bottom:15px">
                             <input asp-for="@Model.orderBook.CustomerName" class="form-control" />
                         </div>
                         <div class="col-md-12">
-                            <label>Địa chỉ giao hàng:</label>
+                            <label>Delivery address:</label>
                         </div>
                         <div class="col-md-12" style="padding-bottom:15px">
                             <input asp-for="@Model.orderBook.CustomerAddress" class="form-control" />
                         </div>
                         <div class="col-md-12">
-                            <label>Số điện thoại nhận hàng:</label>
+                            <label>Delivery phone number:</label>
                         </div>
                         <div class="col-md-12" style="padding-bottom:15px">
                             <input asp-for="@Model.orderBook.CustomerPhone" class="form-control" />
                         </div>
                         <div class="col-md-12">
-                            <label>Ngày giao hàng:</label>
+                            <label>Delivery date:</label>
                         </div>
                         <div class="col-md-12" style="padding-bottom:15px">
                             <input asp-for="@Model.orderBook.AppointmentDate" value="" type="text" id="datepicker" class="form-control" autocomplete="off" />
                         </div>
                         <div class="col-md-12">
-                            <label>Thời gian giao hàng:</label>
+                            <label>Delivery time:</label>
                         </div>
                         <div class="col-md-12" style="padding-bottom:15px">
                             <input asp-for="@Model.orderBook.AppointmentTime" value="" type="text" class="timepicker form-control" autocomplete="off" />
                         </div>
                         <div class="col-md-12 text-center">
-                            <button type="submit" id="btnPlaceOrder" class="btn btn-success">Đặt hàng</button>
+                            <button type="submit" id="btnPlaceOrder" class="btn btn-success">Order</button>
                         </div>
                     </div>
 
