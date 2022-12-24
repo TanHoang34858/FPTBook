@@ -10,17 +10,17 @@ namespace IBook.Models
         [ForeignKey("OrderBook")]
         public int OrderBookID { get; set; }
 
-        [Display(Name = "Mã sách")]
+        [Display(Name = "Book code")]
         [ForeignKey("Book")]
         public int BookID { get; set; }
 
         //[Display(Name = "Số lượng")]
         //public int Quantities { get; set; }
 
-        [Display(Name = "Tên sách")]
+        [Display(Name = "Book title")]
         public virtual Book Book { get; set; }
 
-        [Display(Name = "Mã đơn hàng")]
+        [Display(Name = "Code orders")]
         public virtual OrderBook OrderBook { get; set; }
     }
 }
