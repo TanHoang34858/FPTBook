@@ -14,9 +14,6 @@ namespace IBook.Models
         [ForeignKey("Book")]
         public int BookID { get; set; }
 
-        //[Display(Name = "Số lượng")]
-        //public int Quantities { get; set; }
-
         [Display(Name = "Book title")]
         public virtual Book Book { get; set; }
 
