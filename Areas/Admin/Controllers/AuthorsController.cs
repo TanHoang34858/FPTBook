@@ -23,13 +23,10 @@ namespace IBook.Areas.Admin.Controllers
             _context = context;
         }
 
-        // GET: Admin/Authors
         public async Task<IActionResult> Index()
         {
             return View(await _context.Authors.ToListAsync());
         }
-
-        // GET: Admin/Authors/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -47,7 +44,6 @@ namespace IBook.Areas.Admin.Controllers
             return View(author);
         }
 
-        // GET: Admin/Authors/Create
         public IActionResult Create()
         {
             return View();
